@@ -4,8 +4,9 @@ import SubHeaderCard from '../components/cards/subHeader';
 import SponsorCard from '../components/cards/sponsor';
 import LocationCard from '../components/cards/location';
 import Header from '../components/header';
-import OwnerCard from '../components/cards/owners'
-import Footer from '../components/footer'
+import OwnerCard from '../components/cards/owners';
+import Banner from '../components/banner';
+import Footer from '../components/footer';
 
 const Home: NextPage = () => {
   return (
@@ -17,9 +18,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <div className='jumbotron-main w-screen'>
-          <div className='container h-96'>
-            Hello
-          </div>
+          <Banner />
         </div>
         <SubHeaderCard />
         <SponsorCard />
