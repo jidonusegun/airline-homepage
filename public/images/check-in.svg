@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+    <defs>
+    <path id="online-checkin@3x-a" d="M8.55,21.8583333 L24.3833333,21.8583333 L24.3833333,23.525 L8.55,23.525 L8.55,21.8583333 Z M24.8583333,14.0583333 C24.6833333,13.3916667 23.9916667,12.9916667 23.325,13.175 L18.9,14.3583333 L13.15,9 L11.5416667,9.425 L14.9916667,15.4 L10.85,16.5083333 L9.20833333,15.225 L8,15.55 L9.51666667,18.1833333 L10.1583333,19.2916667 L23.9666667,15.6 C24.6416667,15.4083333 25.0333333,14.725 24.8583333,14.0583333 Z"></path>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+    <circle cx="16.5" cy="16.5" r="16.5" fill="#EFEFEF"></circle>
+    <use fill="#A8ADAF" fill-rule="nonzero" xlink:href="#online-checkin@3x-a"></use>
+    </g>
+</svg>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function sponsor() {
   return (
-    <div className="row info-container w-full">
+    <div className="row info-container w-full px-20">
         <div className="col-12 col-md-4 col-lg-3 hidden-xs-down">
             <h1 className="info-heading">Türkiye’nin Seyahat Sitesi</h1>
             <div className="info-visitor-count">17.000.000+</div>

@@ -78,7 +78,7 @@ export default function location() {
     )
 
   return (
-    <div className='text-left mt-10'>
+    <div className='text-left mt-10 px-20'>
         <div className="col-sm-12 card-top-header" style={{marginBottom: '8px'}}>
             <span>Seyahate Buradan Başlayın</span>
         </div>

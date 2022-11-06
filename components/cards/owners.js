@@ -128,7 +128,7 @@ export default function owners() {
     )
     
   return (
-    <div className='flex flex-grow justify-between mt-8'>
+    <div className='flex flex-grow justify-between mt-8 px-20'>
         <div className='populer-travel-galeries-wrapper' style={{width: '65%'}}>
             <div className="populer-travel-galeries-header">
                 <div className="populer-travel-galeries-header-title">

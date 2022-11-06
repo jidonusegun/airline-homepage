@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <header id="Header" className="header">
-      <nav className="navbar navbar-actions">
+      <nav className="navbar-actions">
           <div className="container">
             <button id="NavbarToggler" className="navbar-toggler " type="button" aria-label="Authenticate">
             <span className="navbar-toggler-icon"></span>
@@ -123,13 +123,11 @@ export default function Header() {
             </div>
             <div className="navbar-nav">
                 <a className="nav-link dropdown-toggle" href="#ModalCurrencyLocale" data-toggle="modal" title="Currency Locale">
-                <span><i className="flag-icon flag-icon-tr">
-                </i>
+                <span><img src="/images/moon-star.png" className='rounded-full' width="20px" height="40px" />
                 </span>
                 </a>
             </div>
-            <div className="navbar-divider">
-            </div>
+            <div className="navbar-divider"></div>
             <div className="NavbarAuth navbar-nav">
                 <a className="ctx-top-page ctx-login-btn nav-link " href="#" id="ctx-LoginBtn" data-trigger="membership-dialog" data-dialog-type="login">Giriş Yap</a>
                 <a className="ctx-top-page ctx-register-btn nav-link" href="#" id="ctx-RegisterBtn" data-trigger="membership-dialog" data-dialog-type="register">Üye Ol</a>
@@ -150,7 +148,7 @@ export default function Header() {
                   </a>
                   <a className="dropdown-item katalon__navbar--travels" href="/uyelik/seyahatler/">
                       <div className="dropdown-item-icon">
-                        <img src="moon.svg" />
+                        <img src="/images/moon.svg" />
                       </div>
                       <div className="dropdown-item-content">
                         <span>Seyahatlerim</span>
@@ -222,7 +220,7 @@ export default function Header() {
             </div>
           </div>
       </nav>
-      <nav id="NavbarCollapse" className="navbar navbar-collapse">
+      <nav id="NavbarCollapse" className="navbar-collapse">
           <div className="container">
             <ul className="navbar-nav hidden-md-up">
                 <li className="NavbarAuth nav-item">

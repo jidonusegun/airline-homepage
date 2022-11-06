@@ -42,7 +42,7 @@ export default function subHeader() {
         },
     ]
   return (
-    <div className='flex justify-around mt-8 w-full'>
+    <div className='flex justify-around mt-8 w-full px-20'>
         {data.map((card, index) => {
             return (
                 <div 

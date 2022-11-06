@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import SubHeaderCard from '../components/cards/subHeader';
+import SubHeaderCard from '../components/cards/tickets';
 import SponsorCard from '../components/cards/sponsor';
 import LocationCard from '../components/cards/location';
 import Header from '../components/header';
